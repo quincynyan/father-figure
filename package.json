@@ -1,0 +1,27 @@
+{
+	"name": "father-figure",
+	"version": "0.0.2b",
+	"description": "no milk?",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"postinstall": "node postinstall.js && node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/quincynyan/father-figure.git"
+	},
+	"keywords": [
+		"father"
+	],
+	"author": "Quincy Nyan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/quincynyan/father-figure/issues"
+	},
+	"homepage": "https://github.com/quincynyan/father-figure#readme",
+	"bin": {
+		"father-figure": "index.js"
+	}
+}
+
